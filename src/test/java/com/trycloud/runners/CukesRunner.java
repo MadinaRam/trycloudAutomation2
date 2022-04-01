@@ -15,9 +15,10 @@ import org.junit.runner.RunWith;
                     "rerun:target/rerun.txt"
             },
             features = "src/test/resources/features",
-            glue = "com/tryCloud/step_definitions",
+            glue = "com/trycloud/step_definitions",
             dryRun = false,
-            tags = "@wip"
+            tags = "@wip",
+            publish = false
     )
     public class CukesRunner {
     }
